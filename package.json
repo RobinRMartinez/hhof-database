@@ -1,0 +1,14 @@
+{
+  "name": "hhof-database",
+  "version": "1.0.0",
+  "description": "Hockey Hall of Fame inductee database — photo migration and management tools",
+  "main": "migrate-photos.js",
+  "scripts": {
+    "migrate": "node migrate-photos.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^2.7.0"
+  }
+}
